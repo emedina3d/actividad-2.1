@@ -8,9 +8,9 @@
 
 :root{
     --primary-color: #f8f4f6;
-    --primary-text-color: #2f3f9f;
+    --primary-text-color: #2743dc;
     --primary-line-color: #2f3fff;
-    --secondary-text-color: #ff3f0f;
+    --secondary-text-color: #c42f0a;
     --secondary-line-color: #ff7f2f;
     --secondary-bg-color: #ff7f2f10;
     --succes-text-color: #229922;
@@ -36,10 +36,9 @@ header, footer{
 }
 
 .box1{
-    width: 650px;
+    min-width: 650px;
     height: 480px;
     background-color: var(--primary-color);
-    padding: 40px;
 }
 
 .box2{
@@ -50,6 +49,7 @@ header, footer{
     border: 3px solid var(--primary-line-color);
     border-radius: 20px;
     padding: 40px 20px;
+    margin: 20px 40px 40px 20px;
 }
 
 .box2>h2{
